@@ -1,0 +1,222 @@
+/* Estilização geral */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilização do cabeçalho */
+header {
+  background-color: #008080;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+header nav a:hover,
+header nav a:focus {
+  color: #FFA500;
+}
+
+/* Estilização da seção principal */
+main {
+  background-color: #fff;
+  padding: 50px 20px;
+  flex: 1;
+}
+
+main h1 {
+  color: #008080;
+  font-size: 36px;
+}
+
+main p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+main a {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+main a:hover,
+main a:focus {
+  background-color: #027171; 
+  color: #fff;
+}
+
+/* Estilização das seções */
+section {
+  padding: 50px 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+section h2,
+section h1 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 40pt;
+  color: #008B8B;
+  margin: 0 auto;
+  background: linear-gradient(to right, #65f3f3, #04b8b8);
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilização da seção farmácia/petshop */
+#farmacia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#farmacia img {
+  width: 100%;
+  max-width: 645px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#farmacia p {
+  font-size: 18px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilização da seção de perguntas frequentes */
+#duvidas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#duvidas img {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#duvidas div {
+  margin-bottom: 20px;
+}
+
+#duvidas h2 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 36pt;
+  color: #008B8B;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#duvidas h3 {
+  font-size: 22px;
+  color: #027c7c;
+  margin-bottom: 10px;
+}
+
+#duvidas p {
+  font-size: 18px;
+  margin: 0;
+}
+
+#duvidas img {
+  margin-top: 10px;
+}
+
+/* Estilização do rodapé */
+footer {
+  background-color: #027c7c;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px 20px;
+  min-width: 250px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #027171;
+  margin-top: 20px;
+}
+
+/* Estilização para o conteúdo desenvolvido por */
+div:last-of-type {
+  text-align: center;
+  padding: 10px;
+  background-color: #03112a;
+  color: #fff;
+  font-size: 14px;
+}
