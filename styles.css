@@ -21,11 +21,6 @@ header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-header h1 {
-  font-size: 24px;
-  margin: 0;
-}
-
 header a {
   color: #fff;
   text-decoration: none;
@@ -75,7 +70,7 @@ main a {
 
 main a:hover,
 main a:focus {
-  background-color: #027171; /* Verde quando o mouse passa sobre o botão */
+  background-color: #ff6f61; /* Ajustado para combinar com o botão de hover */
   color: #fff;
 }
 
@@ -109,61 +104,55 @@ section p {
 }
 
 /* Estilização do formulário */
-#cadastro {
-  background-color: #f4f4f4;
-  padding: 30px 20px;
-  border-radius: 10px;
-  max-width: 800px;
-  margin: 0 auto;
+#formulario {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  max-width: 600px;
 }
 
-form {
+#formulario h2 {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #008B8B;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#formulario form {
   display: flex;
   flex-direction: column;
 }
 
-fieldset {
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-
-legend {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #008080;
-}
-
-label {
+#formulario label {
   font-size: 18px;
-  margin: 10px 0 5px;
-  color: #333;
+  margin-bottom: 5px;
+  color: #027c7c;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"] {
-  font-size: 16px;
+#formulario input {
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
-button {
+#formulario button {
   background-color: #FFA500;
   color: #fff;
   padding: 15px;
-  font-size: 18px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-button:hover,
-button:focus {
-  background-color: #027171;
+#formulario button:hover,
+#formulario button:focus {
+  background-color: #ff6f61;
 }
 
 /* Estilização da seção farmácia/petshop */
@@ -289,60 +278,9 @@ footer {
 }
 
 /* Estilização para o conteúdo desenvolvido por */
-div:last-of-type {
+.footer-bottom {
   text-align: center;
   padding: 10px;
   color: #0a0101;
   font-size: 14px;
-}
-/* Estilização do formulário */
-#formulario {
-  background-color: #f9f9f9;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin: 30px auto;
-  max-width: 600px;
-}
-
-#formulario h2 {
-  font-family: 'Trebuchet MS', sans-serif;
-  color: #008B8B;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-#formulario form {
-  display: flex;
-  flex-direction: column;
-}
-
-#formulario label {
-  font-size: 18px;
-  margin-bottom: 5px;
-  color: #027c7c;
-}
-
-#formulario input {
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  font-size: 16px;
-}
-
-#formulario button {
-  background-color: #FFA500;
-  color: #fff;
-  padding: 15px;
-  border: none;
-  border-radius: 10px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#formulario button:hover,
-#formulario button:focus {
-  background-color: #ff6f61;
 }
