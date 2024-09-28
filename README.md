@@ -1,4 +1,4 @@
-**Projeto Pet.On**
+***Projeto Pet.On***
 
 >> Bem-vindo ao Pet.On
 O Pet.On é um projeto inovador que visa criar uma plataforma completa para pets e seus donos, reunindo serviços, dicas e produtos em um único lugar.
