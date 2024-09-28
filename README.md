@@ -34,3 +34,4 @@
 - Você pode visualizar o design completo do projeto através do link abaixo:
 
 https://www.figma.com/proto/BnLjnk3yVN5sQ3Xxt8LrZH?node-id=0-1&t=JYkTjsyO41Q4Vpma-6
+![image](https://github.com/user-attachments/assets/70c0fbbd-4459-4f0c-bb4c-e6586f666e3f)
