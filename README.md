@@ -33,4 +33,4 @@
 > Link para o Design
 - Você pode visualizar o design completo do projeto através do link abaixo:
 
-https://www.figma.com/proto/BnLjnk3yVN5sQ3Xxt8LrZH?node-id=0-1&t=jlrWhv4kB8OJouYk-6
+https://www.figma.com/proto/BnLjnk3yVN5sQ3Xxt8LrZH?node-id=0-1&t=JYkTjsyO41Q4Vpma-6
