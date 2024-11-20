@@ -8,7 +8,7 @@
   --max-width: 1200px;
 }
 
-// Reset styles
+/* Reset styles */
 * {
   padding: 0;
   margin: 0;
@@ -30,14 +30,14 @@ ul {
   list-style: none;
 }
 
-// Utility classes
+/* Utility classes */
 .section__container {
   max-width: var(--max-width);
   padding: 5rem 1rem;
   margin: auto;
 }
 
-// Header styles
+/* Header styles */
 header {
   padding-top: 5rem;
   position: relative;
@@ -95,8 +95,6 @@ header {
   }
 
   &__btn {
-    @extend .button;
-
     button {
       padding: 0.5rem 1.5rem;
       margin: auto;
@@ -130,7 +128,7 @@ header {
   }
 }
 
-// Navigation styles
+/* Navigation styles */
 nav {
   position: fixed;
   isolation: isolate;
