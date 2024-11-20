@@ -95,6 +95,8 @@ header {
   }
 
   &__btn {
+    @extend .button;
+
     button {
       padding: 0.5rem 1.5rem;
       margin: auto;
@@ -186,4 +188,3 @@ nav {
     }
   }
 }
-
