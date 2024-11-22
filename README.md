@@ -28,4 +28,4 @@
 
 > Link para o Design
 - Você pode visualizar o design completo do projeto através do link abaixo:
-[veja o protótipo no figma]([https://www.figma.com/proto/BnLjnk3yVN5sQ3Xxt8LrZH/Pet.On?page-id=0%3A1&node-id=88-109&node-type=frame&viewport=584%2C311%2C0.15&t=gsevgzlsjvu7ZKmv-1&scaling=contain&content-scaling=fixed](https://www.figma.com/design/zOELrr1akVZioKoV68F903/Untitled?node-id=0-1&node-type=canvas&t=w0KlPxuauX7P4xF2-0))
+[veja o protótipo no figma](https://www.figma.com/design/zOELrr1akVZioKoV68F903/Untitled?node-id=0-1&node-type=canvas&t=w0KlPxuauX7P4xF2-0)
