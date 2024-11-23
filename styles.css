@@ -522,95 +522,213 @@ img.header__image-bg {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* Estilo do Rodapé */
 .footer__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-.footer__col {
-  width: 25%;
+  display: grid;
+  gap: 4rem 2rem;
 }
 
 .footer__logo a {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.footer__col h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
 }
 
 .footer__links {
-  list-style: none;
-  padding: 0;
-}
-
-.footer__links li {
-  margin: 5px 0;
+  display: grid;
+  gap: 1rem;
 }
 
 .footer__links a {
-  color: #333;
-  text-decoration: none;
+  font-weight: 500;
+  color: var(--text-dark);
 }
 
 .footer__links a:hover {
-  color: #4CAF50; /* Cor do hover */
+  color: var(--primary-color);
 }
 
-/* Formulário de Cadastro */
-.footer__signup {
-  position: absolute;
-  bottom: 0;
-  left: 20px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  width: 250px;
-  background-color: #f9f9f9;
+.footer__col p {
+  margin-bottom: 1rem;
+  color: var(--text-dark);
 }
 
-.footer__signup h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.footer__signup form {
+.footer__col form {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  border: 2px solid var(--primary-color);
+  border-radius: 5rem;
 }
 
-.footer__signup input {
-  margin-bottom: 10px;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.footer__signup button {
-  background-color: #4CAF50;
-  color: white;
+.footer__col form input {
+  padding-inline: 0.5rem;
+  width: 100%;
+  outline: none;
   border: none;
-  padding: 10px;
-  font-size: 16px;
+  font-size: 1rem;
+  color: var(--text-dark);
+  background-color: transparent;
+}
+
+.footer__col form button {
+  padding: 0.25rem 1.5rem;
+  outline: none;
+  border: none;
+  color: var(--text-dark);
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  border-radius: 5rem;
   cursor: pointer;
-  border-radius: 5px;
 }
 
-.footer__signup button:hover {
-  background-color: #45a049;
+.footer__socials {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-/* Responsividade: Alinhar o formulário em telas pequenas */
-@media (max-width: 768px) {
-  .footer__signup {
-    position: relative;
-    bottom: unset;
-    left: unset;
-    width: 100%;
-    margin-top: 20px;
+.footer__socials a {
+  display: inline-block;
+  padding: 5px 8px;
+  font-size: 1.125rem;
+  color: var(--text-dark);
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+
+.footer__bar {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
+@media (width > 540px) {
+  .header__content h1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+
+  .header__content h1 span {
+    font-size: 6rem;
+  }
+
+  .intro__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .instagram__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 768px) {
+  nav {
+    position: static;
+    padding: 2rem 1rem;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .nav__header {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav__logo a {
+    font-size: 1.5rem;
+  }
+
+  .nav__menu__btn {
+    display: none;
+  }
+
+  .nav__links {
+    position: static;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: transparent;
+    transform: none;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  .header__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .header__content {
+    grid-area: 1/2/2/3;
+  }
+
+  .header__content :is(h4, .header__btn button) {
+    margin-inline-start: unset;
+  }
+
+  .header__content :is(h1, h2) {
+    text-align: left;
+  }
+
+  .header__content p {
+    max-width: 400px;
+    text-align: left;
+  }
+
+  .header__image img {
+    max-width: 500px;
+  }
+
+  .intro__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about__row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about__row:nth-child(4) {
+    flex-direction: row-reverse;
+  }
+
+  .about__image {
+    max-width: unset;
+    margin-inline: auto;
+  }
+
+  .about__content {
+    text-align: left;
+  }
+
+  .product__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
